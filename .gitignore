@@ -1,0 +1,34 @@
+# Built apps
+*.apk
+*.aab
+*.apks
+
+/app/build/
+/app/build/
+
+# Gradle
+.gradle/
+gradle-app.setting
+!gradle-app.setting.example
+
+# Local configuration file (sdk path, etc)
+local.properties
+
+# IntelliJ
+*.iml
+.idea/
+*.iml
+/.idea
+!.idea/workspace.xml
+!.idea/scopes/
+
+# Android Studio
+*.orig
+
+# Keystores
+*.jks
+*.keystore
+
+# OS
+.DS_Store
+Thumbs.db
